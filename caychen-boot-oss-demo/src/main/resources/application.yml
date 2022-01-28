@@ -1,0 +1,11 @@
+alibaba:
+  cloud:
+    access-key: LTAI4FbbzBLzfTENJsQ1SdT3
+    secret-key: L931KVEoExDSlNo4hvKM7JRXGZeyHz
+    oss:
+      endpoint: oss-cn-shanghai.aliyuncs.com
+    bucket: caychen
+
+file:
+  upload:
+    path-prefix: uat
