@@ -4,5 +4,5 @@ server:
 canal:
   server-address: 192.168.213.133
   instance: caychen
-  subscribe: canal-study.t_user
+  filter: canal-study.t_user
   batchSize: 1000
