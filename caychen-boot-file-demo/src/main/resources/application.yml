@@ -14,7 +14,7 @@ file:
 
 oss:
   enable: true
-  endpoint: oss-cn-shanghai.aliyuncs.com
-  keyId: LTAI4FbbzBLzfTENJsQ1SdT3
-  keySecret: L931KVEoExDSlNo4hvKM7JRXGZeyHz
-  bucket: caychen
+  endpoint: hhh
+  keyId: xxx
+  keySecret: yyy
+  bucket: zzz
