@@ -1,0 +1,44 @@
+spring:
+  rabbitmq:
+#    exchanges:
+##      - exchange-name: exchange
+##        exchange-type: fanout
+##        durable: true
+##        auto-delete: false
+##        queues:
+##          - topic-name: queue
+##            durable: true
+##            auto-delete: false
+##            binding:
+##              binding-name: binding
+##              routing-key: routing-key
+#      - exchange-name: direct-exchange
+#        exchange-type: direct
+#        queues:
+#          - topic-name: direct-queue
+#            binding:
+#              binding-name: direct-binding
+#              routing-key: direct-routing-key
+
+#      - exchange-name: x-delayed-exchange
+#        exchange-type: x-delayed-message
+#        args:
+#          x-delayed-type: direct
+
+
+    publisher-confirm-type: correlated
+    publisher-returns: true
+    host: 172.17.190.108
+    port: 5672
+    username: dfcv
+    password: 2uZ@jJDLjP7D2WYT
+    virtual-host: /
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, beans, metrics, prometheus
+
+logging:
+  type: complex
